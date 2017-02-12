@@ -1,0 +1,31 @@
+body {
+    background-color: #4CAF50;
+}
+
+.title {
+    margin-top: 5%;
+
+
+}
+
+.first-photo img {
+    display: inline;
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.timeline {
+    font-size: 20px;
+     /*margin: 5% 10%;*/
+    margin-top: 2%;
+    margin-bottom: 5%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 10px;
+    background-color: #A5D6A7;
+
+}
+
+iframe {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-bottom: 50px;
+}
