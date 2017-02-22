@@ -1,9 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Ioana Ravar's page</title>
-</head>
-<body>
 
+<head>
+	<title>Ioana Ravar's page</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- jQuerry -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+			crossorigin="anonymous">
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+				crossorigin="anonymous"></script>
+				<script src="https://use.fontawesome.com/f5bded4c51.js"></script>
+				<link rel="stylesheet" href="./assets/style.css" />
+				<script src="./assets/script.js"></script>
+</head>
+
+<body class="container-fluid">
+	<div class="menu">
+		<a class="scroll first" href="#first"><i class="fa fa-user" aria-hidden="true"></i></a>
+		<a class="scroll second" href="#second"><i class="fa fa-book" aria-hidden="true"></i></a>
+		<a class="scroll third" href="#third"><i class="fa fa-suitcase" aria-hidden="true"></i></a>
+		<a class="scroll fourth" href="#fourth"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+	</div>
+	<div class="section first-section" id="first">
+		<div class="photo-section text-center"> 
+			<img class="img-responsive img-circle img-thumbnail" src="./assets/img/profile-picture-cropped.jpg" />
+			<h1 class="text-center">Ravar Ioana</h1>
+			<h3 class="text-center">Portfolio Page</h3>
+		</div>
+
+	</div>
+	<div class="section second-section" id="second">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2 aboutme-title">
+				<h1> About me </h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2 aboutme aboutme-left">
+				<p>
+					I am a 24 years old Front-end Developer, from Bacau, Romania. I have a Bachelor degree from the Faculty of Computer Science,
+					Iasi, Romania. During the faculty I completed two courses of Front-End Development organized by ASII (Association of
+					Students at Informatics Iasi) with trainees from companies like Endava and Centric. From the summer of 2015 to the winter
+					of 2017, I worked as Tester at Continental Automotive Iasi.
+				</p>
+			</div>
+			<div class="col-md-4 aboutme aboutme-right">
+				<p>
+					Now, I am in London, brushing my skills of Web Development on freeCodeCamp and Algorithms on HackerRank. I am looking for
+					a Junior Front-End position in London or remote. (For now) I am good with:
+				</p>
+				<div class="text-center tech-icons">
+					<img src="./assets/img/icons/html.png" alt="">
+					<img src="./assets/img/icons/css.png" alt="">
+					<img src="./assets/img/icons/javascript.png" alt="">
+					<img src="./assets/img/icons/bootstrap.png" alt="">
+					<img src="./assets/img/icons/github.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section third-section" id="third">
+		<h1 class="text-center">My Projects</h1>
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+				<!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<a href="https://ravarioana.github.io/edsheeran/index.html">
+						<img class="d-block img-fluid" src="./assets/img/firstProject.png" alt="...">
+						<div class="carousel-caption">
+							<h3>Ed Sheeran's Tribute Page</h3>
+							<p>
+								First project from FreeCodeCamp course 
+							</p>
+						</div>
+					</a>
+				</div>
+				<!--<div class="item">
+					<a href="www.google.com">
+						<img class="d-block img-fluid" src="./assets/img/profile-picture-cropped.jpg" alt="...">
+						<div class="carousel-caption">
+							<h3>Caption Text</h3>
+							<p>
+								Stefan
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="www.google.com">
+						<img class="d-block img-fluid" src="./assets/img/profile-picture-cropped.jpg" alt="...">
+						<div class="carousel-caption">
+							<h3>Caption Text</h3>
+							<p>
+								doar noi
+							</p>
+						</div>
+					</a>
+				</div>-->
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<!-- Carousel -->
+	</div>
+
+	<div class="section fourth-section" id="fourth">
+		<h1 class="text-center">
+			We can be friends:
+		</h1>
+		<div class="social-media">
+			<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline">
+				<li> <a href="https://www.facebook.com/ioana.ravar"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li> <a href="https://www.linkedin.com/in/ravarioana/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li> <a href="https://github.com/ravarioana"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				<li> <a href="https://twitter.com/ioanarav"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li> <a href="https://www.instagram.com/ioanaravar/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+
+
+		</div>
+	</div>
 </body>
+
 </html>

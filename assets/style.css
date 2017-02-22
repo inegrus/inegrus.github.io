@@ -1,0 +1,200 @@
+html {
+    
+}
+
+body {
+    background: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0 !important;
+    color: #FFF;
+}
+
+/* Menu icons */
+.menu {
+    position: fixed;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8em;
+    left: -5px;
+}
+
+.menu .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+    border-radius: 0px 50% 50% 0px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.menu .first .fa {
+    background-color: #66B9BF; 
+}
+
+.menu .second .fa {
+    background-color: #07889B; 
+}
+
+.menu .third .fa {
+    background-color: #E37222;
+}
+
+.menu .fourth .fa {
+    background-color: #EEAA7B;
+}
+
+
+.menu .fa:hover {
+    background-color: #94d347;
+    padding-left: 10px;
+    width: 60px;
+}
+
+
+/* Sections */
+.section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.first-section {
+    background-size: cover;
+   background-color: #66B9BF;  
+    padding-top: 15vh;
+}
+
+.tech-icons {
+    padding-top:20px; 
+}
+
+.tech-icons img {
+    height: 3.6em;
+    border-radius: 50%;
+    border: #FFF 2px solid;
+}
+
+
+.photo-section {
+    padding: 50px 0;
+}
+
+.photo-section img {
+    max-height: 40vh;
+    width: auto;
+    margin: auto;
+}
+
+
+.second-section {
+    background-size: cover;
+    padding-top: 20vh;
+    background-color: #07889B;
+}
+
+.aboutme {
+    font-size: 1.4em;
+
+}
+
+.aboutme-left {
+    padding-right: 40px;
+
+}
+
+.aboutme-right {
+    padding-left: 40px;
+
+}
+
+.third-section {
+    background-size: cover;
+    background-color: #E37222;
+    padding: 75px 0;
+}
+
+.carousel {
+    width: 35em;
+    height: 35em;
+    max-height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.carousel img {
+  min-width: 100%;
+  max-width: none;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.carousel-caption {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fourth-section {
+    background-size: cover;
+    background-color: #EEAA7B;
+    padding-top: 50px; 
+    height: 35vh;
+}
+
+
+/* Contact icons */
+.social-icons {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+	border-radius: 50%;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.social-icons .fa-facebook {background-color:#3C599F;}
+.social-icons .fa-github {background-color:#070709;}
+.social-icons .fa-linkedin {background-color:#0085AE;}
+.social-icons .fa-twitter {background-color:#32CCFE;}
+.social-icons .fa-instagram{background-color:#A1755C;}
