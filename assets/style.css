@@ -88,6 +88,11 @@ body {
     border: #FFF 2px solid;
 }
 
+.tech-icons img.tech-icon-python {
+    border: 0;
+    zoom: 1.2;
+}
+
 
 .photo-section {
     padding: 50px 0;
@@ -244,6 +249,10 @@ body {
 
 .timeline-content{
     padding:5px 20px 0 20px;
+}
+
+.timeline-body p {
+    margin: 0;
 }
 
 .timeline>li .timeline-panel:before {
@@ -503,6 +512,7 @@ body {
 .social-icons .fa-linkedin {background-color:#0085AE;}
 .social-icons .fa-twitter {background-color:#32CCFE;}
 .social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-file-text{background-color:#E37222;}
 
 /* .btn-circle {
     width: 30px;
@@ -541,3 +551,8 @@ body {
     border: 1px solid white;
     box-shadow: 8px 9px 30px 1px #333;
 }
+
+.row {
+    margin: 0;
+}
+
