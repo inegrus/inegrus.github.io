@@ -557,12 +557,12 @@ body {
 }
 
 
-@media(max-width:768px) {
+@media(max-width:646px) {
 
     .second-section {
         padding-left: 45px; 
         padding-top: 5px;   
-        height: 110vh;
+        height: 130vh;
     }
     .aboutme {
         font-size: 1.2em;
@@ -580,7 +580,7 @@ body {
     .third-section {
         text-align: left;
         padding-left: 20px;
-        height: 120vh;
+        height: 130vh;
 
     }
 
