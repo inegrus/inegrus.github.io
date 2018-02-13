@@ -562,6 +562,7 @@ body {
     .second-section {
         padding-left: 45px; 
         padding-top: 5px;   
+        height: 110vh;
     }
     .aboutme {
         font-size: 1.2em;
@@ -579,6 +580,8 @@ body {
     .third-section {
         text-align: left;
         padding-left: 20px;
+        height: 120vh;
+
     }
 
     .row .resume-title {
@@ -588,4 +591,5 @@ body {
     .fifth-section h1 {
         font-size: 30px;
     }
+
 }
