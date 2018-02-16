@@ -607,6 +607,11 @@ body {
         font-size: 30px;
     }
 
+    .fourth-section h1 {
+        max-width: 300px;
+        text-align: center;
+        padding: 0px 20px 0 100px;
+    }
 }
 
 
@@ -616,22 +621,16 @@ body {
     position: center;
     padding: 0;
     margin: 0;
- 
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-     */
-    
+
 }
-.projects{
+
+.projects {
     color: #000;
-    /* background-image: linear-gradient(to top, #ffc3a0 0%, #ffafbd 100%); */
     background-image: url('img/background5.jpeg');
     background-size: 100%; 
     background-repeat: repeate-y;
-    background-attachment: fixed   
-   
+    background-attachment: fixed     
+
 }
 
 .projects img {
@@ -642,12 +641,12 @@ body {
     /* background-image: linear-gradient(to bottom, #ffc3a0 0%, #ffafbd 100%); */
     background-color:  #cc6600;
     border-color: #000;
-    
+
 }
 
 .navbar-brand {
     color: #fff;
-    
+
 }
 
 .card {
