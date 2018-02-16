@@ -598,7 +598,7 @@ body {
     }
 
     .fourth-section {
-        height: 116vh;
+        height: 140vh;
     }
 
     .row .resume-title {
@@ -615,13 +615,10 @@ body {
 /* Projects */
 
 body {
-    background-image: url('img/background5.jpeg');
-    background-size: 100%; 
-    background-repeat: no-repeat;
     position: center;
     padding: 0;
     margin: 0;
-    background-attachment: fixed    
+ 
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -632,6 +629,10 @@ body {
 .projects{
     color: #000;
     /* background-image: linear-gradient(to top, #ffc3a0 0%, #ffafbd 100%); */
+    background-image: url('img/background5.jpeg');
+    background-size: 100%; 
+    background-repeat: repeate-y;
+    background-attachment: fixed   
    
 }
 
@@ -685,27 +686,30 @@ hr {
 
 .projects-title h1 {
     color: #3a2d0e; 
-    font-family: 'Droid serif', serif; 
+    /* font-family: 'Droid serif', serif;  */
     font-size: 48px; 
     font-weight: 400; 
     font-style: bold; 
     line-height: 50px; 
     margin: 0 0 12px; 
     text-align: center;
+    text-shadow: 2px 2px 2px#A0522D;
 }
 
 .page-header {
     border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .page-header h1 {
     color: #3a2d0e;     
-    font-size: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px#A0522D;
 }
 
-
 .page-header img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 .book {
     border:1px solid #021a40;
@@ -715,3 +719,4 @@ hr {
 a:hover{
     text-decoration: none;
 }
+/* Button */
