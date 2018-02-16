@@ -693,6 +693,10 @@ hr {
     margin: 0 0 12px; 
     text-align: center;
 }
+
+.page-header {
+    border-bottom: 0px;
+}
 .page-header h1 {
     color: #3a2d0e;     
     font-size: 30px;
@@ -702,4 +706,12 @@ hr {
 .page-header img {
     width: 30px;
     height: 30px;
+}
+.book {
+    border:1px solid #021a40;
+  
+}
+
+a:hover{
+    text-decoration: none;
 }
