@@ -544,8 +544,6 @@ body {
     
 }
 
-
-
 .fourth-section .title {
     font-style: italic;
 }
@@ -593,12 +591,12 @@ body {
     .third-section {
         text-align: left;
         padding-left: 20px;
-        height: 130vh;
+        height: 145vh;
 
     }
 
     .fourth-section {
-        height: 140vh;
+        height: 155vh;
     }
 
     .row .resume-title {
@@ -719,4 +717,4 @@ hr {
 a:hover{
     text-decoration: none;
 }
-/* Button */
+
