@@ -166,6 +166,8 @@ body {
     bottom: -40px;
     margin: 0 auto;
 }
+
+
 /* Timeline */
 
 .resume-section > div > div{
@@ -461,6 +463,10 @@ body {
     padding: 75px 0;
 }
 
+.fourth-section a {
+    color: #fff;
+}
+    
 .fifth-section {
     background-size: cover;
     background-color: green;
